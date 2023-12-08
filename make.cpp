@@ -256,11 +256,12 @@ int main() {
 
             case 8:
                 std::cout << "Exiting...\n";
-                break;
+                return 0;
+              
             default:
                 std::cout << "Invalid choice! Please enter a valid option.\n";
         }
-    } while (choice != 7);
+    } while (choice != 8);
 
     return 0;
 }
